@@ -1,0 +1,25 @@
+{
+  "name": "didact",
+  "version": "1.0.0",
+  "description": "React clone",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ALRW/didact.git"
+  },
+  "author": "ALRW",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ALRW/didact/issues"
+  },
+  "homepage": "https://github.com/ALRW/didact#readme",
+  "devDependencies": {
+    "eslint": "^7.5.0"
+  }
+}
