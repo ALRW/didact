@@ -1,7 +1,9 @@
 import createElement from './createElement'
+import render from './render'
 
 const Didact = {
-  createElement
+  createElement,
+  render
 }
 
 export default Didact
