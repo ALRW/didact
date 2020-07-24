@@ -2,11 +2,12 @@
   "name": "didact",
   "version": "1.0.0",
   "description": "React clone",
-  "main": "index.js",
+  "private": true,
   "directories": {
     "lib": "lib"
   },
   "scripts": {
+    "build": "./node_modules/.bin/babel src -d dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,6 +21,14 @@
   },
   "homepage": "https://github.com/ALRW/didact#readme",
   "devDependencies": {
-    "eslint": "^7.5.0"
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.10.5",
+    "@babel/preset-env": "^7.10.4",
+    "@babel/preset-react": "^7.10.4",
+    "babel-loader": "^8.1.0",
+    "eslint": "^7.5.0",
+    "eslint-plugin-react": "^7.20.3",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12"
   }
 }
