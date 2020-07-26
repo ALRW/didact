@@ -4,6 +4,9 @@ import Didact from './lib/Didact'
 /** @jsx Didact.createElement */
 const element = (
   <div id="foo">
+    <div className="navbar">
+      <h1 className="title">Didact in action</h1>
+    </div>
     <a>click me</a>
     <b />
   </div>

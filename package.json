@@ -9,6 +9,9 @@
   "scripts": {
     "build": "webpack",
     "start": "http-server",
+    "watch:build": "nodemon -e webpack",
+    "watch:start": "nodemon -e http-server",
+    "watch": "npm run watch:build && npm run watch:start",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -29,6 +32,7 @@
     "babel-loader": "^8.1.0",
     "eslint": "^7.5.0",
     "eslint-plugin-react": "^7.20.3",
+    "nodemon": "^2.0.4",
     "webpack": "^4.43.0",
     "webpack-cli": "^3.3.12"
   }
